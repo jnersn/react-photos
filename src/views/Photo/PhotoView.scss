@@ -1,0 +1,7 @@
+@import '../../styles/constants';
+
+.photo {
+  > .title {
+    margin-top: $spacing-medium;
+  }
+}

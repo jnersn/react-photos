@@ -1,0 +1,14 @@
+@import '../../styles/constants';
+
+.image {
+  background: $color-light;
+  padding-top: 100%;
+  position: relative;
+  width: 100%;
+
+  > img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}

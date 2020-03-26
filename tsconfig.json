@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "outDir": "./build",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "target": "esnext",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": ["dom", "es2020"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "removeComments": true,
+    "paths": {
+      "@app/actions": ["actions"],
+      "@app/components": ["components"],
+      "@app/constants": ["constants"],
+      "@app/containers": ["containers"],
+      "@app/reducers": ["reducers"],
+      "@app/types": ["types"],
+      "@app/utils": ["utils"],
+      "@app/views": ["views"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

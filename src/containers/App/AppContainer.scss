@@ -1,0 +1,10 @@
+@import '../../styles/vendor/reset';
+@import '../../styles/general';
+@import '../../styles/constants';
+
+.app {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: $spacing-large $spacing-large ($spacing-large * 2);
+  width: $app-width;
+}

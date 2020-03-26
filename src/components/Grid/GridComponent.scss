@@ -1,0 +1,13 @@
+@import '../../styles/constants';
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -$spacing-tiny;
+  padding-bottom: $spacing-medium;
+
+  > li {
+    flex: 1 1 25%;
+    padding: $spacing-tiny;
+  }
+}
